@@ -13,8 +13,8 @@ button{
     color: white;
     font-family: sans-serif;
     font-size: larger;
-    height: 3rem;
-    width: 8rem;
+    height: 48px;
+    width: 128px;
     padding: 0 20px;
     text-align: center;
     text-shadow: -1px 1px 1px #000;
@@ -32,20 +32,20 @@ button{
 
 .button-petit{
 
-    height: 3rem;
-    width: 4rem;
+    height: 48px;
+    width: 64px;
 }
 
 .button-moyen{
 
-    height: 3rem;
-    width: 12rem;
+    height: 48px;
+    width: 192px;
 }
 
 .button-grand{
 
-    height: 3rem;
-    width: 16rem;
+    height: 48px;
+    width: 256px;
 }
 
 button:hover{
@@ -186,18 +186,18 @@ button:hover{
 
 /* Pour les images */
 .imgsmall{
-    height: 25%;
-    width: 25%;   
+    height: 128px;
+    width: 128px;   
 }
 
 .imgmedium{
-    height: 50%;
-    width: 50%;
+    height: 256px;
+    width: 256px;
 }
 
 .imgbig{
-    height: 75%;
-    width: 75%;
+    height: 512px;
+    width: 512px;
 }
 
 .imgfull{
