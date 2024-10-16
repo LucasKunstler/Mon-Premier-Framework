@@ -1,18 +1,59 @@
 /* Fontion des boutons */
 
-.bouton{
+/* button{
     border-radius: 3%;
     border-color:black ;
     border-style: ridge;
     background-color: black;
     color: blanchedalmond;
+} */
+
+button{
+    border: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: larger;
+    height: 3rem;
+    width: 8rem;
+    padding: 0 20px;
+    text-align: center;
+    text-shadow: -1px 1px 1px #000;
+    border-radius: 15px;
+    background-image: linear-gradient(
+        to top left,
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.6);
 }
 
-.bouton:hover{
+.button-petit{
+
+    height: 3rem;
+    width: 4rem;
+}
+
+.button-moyen{
+
+    height: 3rem;
+    width: 12rem;
+}
+
+.button-grand{
+
+    height: 3rem;
+    width: 16rem;
+}
+
+button:hover{
     background-color: blanchedalmond;
     color: black;
     box-shadow: 10px
 }
+
 
 /* Taille */
 
@@ -143,23 +184,23 @@
 
 
 
-/* Pour les images seulement  */
-.small{
+/* Pour les images */
+.imgsmall{
     height: 25%;
     width: 25%;   
 }
 
-.medium{
+.imgmedium{
     height: 50%;
     width: 50%;
 }
 
-.big{
+.imgbig{
     height: 75%;
     width: 75%;
 }
 
-.full{
+.imgfull{
     height: 100%;
     width: 100%;
 }
